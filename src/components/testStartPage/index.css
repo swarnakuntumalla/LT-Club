@@ -1,0 +1,50 @@
+.mcq-heading{
+    color: rgb(12, 77, 31);
+    font-size: 50.21px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.mcq-container{
+    margin: 51px;
+}
+
+
+.mcq-ins{
+    font-size: 23px;
+    font-family: monospace;
+    font-weight: 600;
+    color: rgb(109, 56, 56);
+    margin-left: 21px;
+}
+
+.obj-ul-mcq {
+    font-size: 15px;
+    font-family: monospace;
+    width: 79vw;
+    margin-left: 3vw;
+}
+
+.st-btn{
+    margin-top: 30px;
+    background-color: #28C877;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    padding-bottom: 8px;
+    color: #ffffff;
+    width: 231px;
+    border: 2px solid #28C877;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.st-btn:hover{
+    border: 2px solid #28C877;
+    background-color: #ffffff;
+    color: #28C877;
+}
+
+.st-container{
+    text-align: right;
+    margin-right: 3vw;
+}

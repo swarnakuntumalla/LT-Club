@@ -1,0 +1,423 @@
+.tracks-con {
+    background-color: rgb(209, 255, 232);
+    height: 87vh;
+    margin-top: 8px;
+    overflow-y: scroll;
+    position: absolute;
+    left: -317px;
+    z-index: 999;
+    width: 317px;
+}
+
+#slide {
+    -webkit-animation: slide 0.5s forwards;
+    animation: slide 0.5s forwards;
+}
+
+@-webkit-keyframes slide {
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes slide {
+    100% {
+        left: 0;
+    }
+}
+
+.slide-btn {
+    position: absolute;
+    margin-left: 317px;
+    left: -321px;
+    top: 81px;
+    border: none;
+    width: 20px;
+    background-color: rgb(2, 70, 2);
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    cursor: pointer;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    z-index: 999;
+}
+
+#btn-slide {
+    -webkit-animation: slide 0.5s forwards;
+    animation: slide 0.5s forwards;
+}
+
+@-webkit-keyframes btn-slide {
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes btn-slide {
+    100% {
+        left: 0;
+    }
+}
+
+.tracks-con::-webkit-scrollbar {
+    display: none;
+}
+
+.main-topic {
+    font-size: 21px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    margin-bottom: 5px;
+    color: rgb(0, 54, 0);
+    overflow: hidden;
+    padding: 10px;
+    margin-left: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.mt-in {
+    border-bottom: 1px solid rgb(0, 54, 0);
+
+}
+
+.sub-topics {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    line-height: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: rgb(2, 70, 2);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.s-topic-name {
+    width: 100%;
+    padding: 12px;
+    margin: 0px;
+    cursor: pointer;
+    padding-left: 39px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+}
+
+.st-in {
+    cursor: text;
+    border-bottom: 1px solid rgb(0, 54, 0);
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.s-topic-name:hover {
+    background-color: rgb(177, 212, 172);
+}
+
+.sel-st {
+    background-color: rgb(26, 130, 26);
+    color: rgb(222, 255, 220);
+}
+
+.sel-st:hover {
+    background-color: rgb(26, 130, 26);
+    color: rgb(222, 255, 220);
+}
+
+.main-topic-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.mod-btn {
+    border: none;
+    color: rgb(72, 72, 49);
+    background: transparent;
+    font-size: 16px;
+    width: 45px;
+    text-align: center;
+    padding-bottom: 7px;
+    border-radius: 5px;
+}
+
+.mod-btn:hover {
+    background-color: rgb(177, 212, 172);
+}
+
+.add-topic-btn {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+    width: 191px;
+    justify-content: center;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background-color: rgb(3, 75, 3);
+    color: aliceblue;
+    margin: 20px;
+}
+
+.add-topic-btn:hover {
+    background-color: rgb(0, 54, 0);
+}
+
+.add-text {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px;
+    margin-left: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.modal-desc {
+    font-size: 18px;
+    color: rgb(0, 54, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.modal-btn {
+    border: none;
+    background-color: rgb(3, 96, 3);
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 5px;
+    width: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 4px;
+    margin-top: 9px;
+}
+
+.modal-btn:hover {
+    background-color: rgb(2, 70, 2);
+}
+
+.m-del-btn {
+    margin-left: 171px;
+    background-color: rgb(155, 68, 56);
+}
+
+.m-del-btn:hover {
+    background-color: rgb(100, 42, 35);
+}
+
+.st-main-con {
+    padding: 21px;
+    padding-top: 31px;
+    height: 87vh;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+@media screen and (min-width: 767px) {
+    .st-main-con {
+        padding-left: 47px;
+    }
+}
+
+.st-main-con::-webkit-scrollbar {
+    width: 8px;
+}
+
+.st-main-con::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.st-main-con::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.st-main-con::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.st-head {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    color: rgb(5, 43, 20);
+    margin-top: 17px;
+    white-space: pre-wrap;
+}
+
+.st-img {
+    width: 60%;
+    padding: 21px;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    margin-bottom: 11px;
+}
+
+@media screen and (max-width: 767px) {
+    .st-img {
+        width: 100%;
+    }
+
+    .edit-btns-con {
+        flex-direction: column;
+    }
+}
+
+.edit-btn {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(3, 69, 13);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    font-size: 24px;
+    color: aliceblue;
+    right: 28px;
+    top: 87vh;
+}
+
+.st-input {
+    color: #032313;
+    font-weight: 500;
+    border: none;
+    border-bottom: 1px solid #032313;
+    outline-width: 0px;
+    padding: 10px;
+    width: 77%;
+}
+
+.st-desc {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    padding: 11px;
+    color: rgb(22, 59, 38);
+    width: 97%;
+    margin-top: 17px;
+    white-space: pre-wrap;
+}
+
+.st-desc::-webkit-scrollbar {
+    display: none;
+}
+
+.st-img-input-div {
+    width: 18em;
+    height: 18em;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px dotted rgb(28, 160, 35);
+    background-color: rgb(213, 235, 214);
+    position: relative;
+    margin: 17px;
+}
+
+@media screen and (max-width: 767px) {
+    .st-img-input-div {
+        width: 91%;
+    }
+
+    .tracks-con {
+        height: 91.8vh;
+    }
+}
+
+.st-img-icon {
+    font-size: 91px;
+}
+
+.st-mcq-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.st-img-file {
+    opacity: 0.0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.st-back-btn {
+    align-self: center;
+    background-color: #28C877;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    width: 66px;
+    border: 2px solid #28C877;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.st-back-btn:hover {
+    border: 2px solid #28C877;
+    background-color: #ffffff;
+    color: #28C877;
+}
+
+.st-trash-btn {
+    background-color: #a20f0f;
+    border-color: #a20f0f;
+}
+
+.st-trash-btn:hover {
+    color: #a20f0f;
+    border-color: #a20f0f;
+}
+
+.st-img-limit-err {
+    font-family: monospace;
+    font-size: 15px;
+    background-color: rgb(242, 191, 180);
+    color: red;
+}
+
+.me {
+    border-radius: 6.9px;
+    overflow: hidden;
+}
+
+.st-select-lang {
+    cursor: pointer;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+.st-select-lang:focus {
+    box-shadow: none;
+}
+
+.st-sel-lang-con {
+    width: 171px;
+    margin-left: auto;
+    margin-right: 21px;
+}
+
+.st-tr-btn {
+    height: 44px;
+    align-self: center;
+}
+
+.st-tr-btn:hover {
+    background-color: #f9bdbd;
+}
